@@ -113,8 +113,6 @@ def show_video(cap, net):
             cv2.imshow("object detection", frame)
 
             if cv2.waitKey(1) & 0xFF == ord("q"):
-                filename = "github.jpg"
-                cv2.imwrite(filename, frame)
                 return
         else:
             return
