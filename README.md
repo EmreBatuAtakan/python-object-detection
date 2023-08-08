@@ -5,7 +5,7 @@
 
 Python OpenCV object detection using YOLOv3 with CUDA Support.
 
-![Example from working code](example_image.jpg)
+![Example from working code](README/example_image.jpg)
 
 ## Description
 
@@ -45,6 +45,7 @@ For CUDA support, the following are required:
 | --- | --- |
 | [Python 3.11.3](https://www.python.org/downloads/release/python-3113) | - |
 | [OpenCV 4.8.0](https://opencv.org/releases) and [OpenCV Contrib 4.8.0](https://github.com/opencv/opencv_contrib/releases/tag/4.8.0) | [Installation Guide - With CUDA Support](#guide) |
+| [Java JDK 20](https://www.oracle.com/java/technologies/downloads/) | - |
 | [Visual Studio Code](https://code.visualstudio.com) | - |
 | [Visual Studio 2022](https://visualstudio.microsoft.com/tr/vs) | - |
 | [CMake](https://cmake.org/download) | - |
@@ -70,7 +71,7 @@ Base file structure of the repo looks like the following:
 │   ├── config.cfg
 │   └── yolov3.weights
 └── videos
-    └── *.mp4 (any .mp4 file to be used)
+    └── *.mp4 (any .mp4 file to used)
 ```
 
 > Since *yolov3.weights* is too large, the file cannot be provided in the repository. Downloading the file from [here](https://pjreddie.com/darknet/yolo/#:~:text=Detection%20Using%20A%20Pre%2DTrained%20Model) is recommended.
